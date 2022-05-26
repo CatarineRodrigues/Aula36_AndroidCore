@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/meu_pet"
+        android:textAllCaps="true"
+        android:textSize="@dimen/texto_tamanho_16" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margem_12"
+        android:contentDescription="@string/descricao_imagem_pets"
+        android:src="@drawable/meuspets" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margem_12"
+        android:text="@string/info_pets"
+        android:textSize="@dimen/texto_tamanho_12" />
+
+    <Button
+        android:id="@+id/botao_mensagem_pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margem_12"
+        android:text="mensagem"
+        android:textAllCaps="true"
+        android:textSize="@dimen/texto_tamanho_14"
+        android:backgroundTint="@color/cor_secundária"/>
+
+</LinearLayout>
